@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color:#BBF68E;
+    --secondary-color:#9AC705;
+    --accent1-colo:#BBF68E;
+    --accent2-colo:#9AC705;
+
+    --heading-font: arial, sans-serif ;
+    --paragraph-font: Helvetica, sans-serif ;
+
+    --nav-background-color:#a57a39;;
+    --nav-link-color:#c6e9ac;;
+    --nav-hover-link-color:#6b263d;;
+    --nav-hover-background-color:#6cc42a;;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color:var(--nav-background-color) ;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color:var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
